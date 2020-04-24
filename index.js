@@ -31,6 +31,4 @@ const proxify = (requestsPerProxy = 5) => {
     return newRequest;
 };
 
-console.log("\n".repeat(5));
-
 module.exports={pubProxy};
