@@ -1,4 +1,3 @@
-const request = require("request-promise");
 const promiseProxy = require("./pubproxy");
 
 const POSTBIN_URL = "http://postb.in/1560552860304-0136323836632";
@@ -31,4 +30,4 @@ const proxify = (requestsPerProxy = 5) => {
     return newRequest;
 };
 
-module.exports={pubProxy};
+module.exports={proxify};
